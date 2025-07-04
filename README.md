@@ -15,6 +15,6 @@ The columns in the data are as follows:
 - Power - Turbine output, normalized to be between 0 and 1 (i.e., a percentage of maximum potential output)
 
 Notes:
-	1) Likely many of these variables will not be very relevant. They are included here but do not need to be included in the final models.
-	2) Degrees are measured from 0 to 360. Since 0 and 360 represent the same spot on a circle, consider transforming these using sine and/or cosine. Also consider converting them to radians, instead of degrees.
-	3) Each location can have a different model. There is no reason to build one model to work for all locations.
+	1. Likely many of these variables will not be very relevant. They are included here but do not need to be included in the final models.
+	2. Degrees are measured from 0 to 360. Since 0 and 360 represent the same spot on a circle, consider transforming these using sine and/or cosine. Also consider converting them to radians, instead of degrees.
+	3. Each location can have a different model. There is no reason to build one model to work for all locations.
